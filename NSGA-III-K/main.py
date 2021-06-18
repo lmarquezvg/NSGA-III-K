@@ -11,7 +11,7 @@ if __name__ == '__main__':
         print(contents)
     else:
         if (len(sys.argv) != 8):
-            sys.exit("Incorrect number of arguments. Use: main.py --help")
+            sys.exit("Incorrect number of arguments. For more information, please use: main.py --help")
         algorithm = str(sys.argv[1])
         H1 = int(sys.argv[2])
         H2 = int(sys.argv[3])
@@ -23,22 +23,22 @@ if __name__ == '__main__':
         valid_algorithms = ['NSGA-III', 'NSGA-III-RSE', 'NSGA-III-GAE', 'NSGA-III-COU', 
                             'NSGA-III-PT', 'NSGA-III-MPT', 'NSGA-III-GPT', 'NSGA-III-KRA']
         if (algorithm not in valid_algorithms):
-            sys.exit("Invalid MOEA name. Use: main.py --help")
+            sys.exit("Invalid MOEA name. For more information, please use: main.py --help")
         if (H1 <= 0):
-            sys.exit("Invalid value for the number of divisions per objective function for the boundary layer. Use: main.py --help")
+            sys.exit("Invalid value for the number of divisions per objective function for the boundary layer. For more information, please use: main.py --help")
         if (H2 < 0):
-            sys.exit("Invalid value for the number of divisions per objective function for the inner layer. Use: main.py --help")
+            sys.exit("Invalid value for the number of divisions per objective function for the inner layer. For more information, please use: main.py --help")
         valid_problems = ['DTLZ1', 'DTLZ2', 'DTLZ3', 'DTLZ4', 'DTLZ5', 'DTLZ6', 'DTLZ7', 
                           'DTLZ1_MINUS', 'DTLZ2_MINUS', 'DTLZ3_MINUS', 'DTLZ4_MINUS', 
                           'DTLZ5_MINUS', 'DTLZ6_MINUS', 'DTLZ7_MINUS']
         if (problem not in valid_problems):
-            sys.exit("Invalid MOP name. Use: main.py --help")
+            sys.exit("Invalid MOP name. For more information, please use: main.py --help")
         if (m < 2):
-            sys.exit("Invalid value for the number of objective functions. Use: main.py --help")
+            sys.exit("Invalid value for the number of objective functions. For more information, please use: main.py --help")
         if (max_generations < 0):
-            sys.exit("Invalid value for the maximum number of generations. Use: main.py --help")
+            sys.exit("Invalid value for the maximum number of generations. For more information, please use: main.py --help")
         if (runs <= 0):
-            sys.exit("Invalid value for the number of independent runs. Use: main.py --help")
+            sys.exit("Invalid value for the number of independent runs. For more information, please use: main.py --help")
         
         if (algorithm == 'NSGA-III-RSE'):
             flag = 1
