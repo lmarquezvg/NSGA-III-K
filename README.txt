@@ -75,9 +75,9 @@ EXAMPLE
        The previous line executes the module main.py to test the NSGA-III-RSE 
        on the DTLZ1_MINUS with three objective functions for one independent 
        run. A boundary layer with twelve divisions per objective function is
-       generated for the weight vector-based reference set and the inner layer 
-       is not required. The maximum number of generations is set to four 
-       hundred generations.
+       used for the weight vector-based reference set and the inner layer is 
+       not required. The maximum number of generations is set to four hundred 
+       generations.
 
 RESULTS
        On success, the output files containing the approximation sets are 
