@@ -42,8 +42,8 @@ DESCRIPTION
 
        OBJS
               It must be an integer greater than one. It represents the number 
-              of objective functions of the MOP. In this paper, all MOPs are 
-              scaled to 3, 5, 8, and 10 objective functions.
+              of objective functions of the MOP. In our experiments, all MOPs 
+              are scaled to 3, 5, 8, and 10 objective functions.
 
        GENS
               It must be an integer greater than or equal to zero. It 
@@ -62,8 +62,8 @@ DESCRIPTION
        RUNS
               It must be an integer greater than zero. It represents the number 
               of independent runs that the MOEA will be tested on the selected 
-              MOP. In this paper, all MOEAs are executed for 30 independent 
-              runs in each MOP.
+              MOP. In our experiments, all MOEAs are executed for 30 
+              independent runs in each MOP.
 
        The following option can be used:
 
