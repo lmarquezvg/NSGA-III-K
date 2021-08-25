@@ -97,3 +97,9 @@ RESULTS
        On success, the output files containing the approximation sets are 
        generated in NSGA-III-K/Results/.
 
+CONTENTS
+       The folder "NSGA-III-K" contains the source code of the module main.py.
+       The folder "Supplementary material" contains the supplementary material
+       of the paper: Towards a Pareto Front Shape Invariant Multi-Objective 
+       Evolutionary Algorithm Using Pair-Potential Functions.
+
