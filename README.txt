@@ -103,3 +103,27 @@ CONTENTS
        of the paper: Towards a Pareto Front Shape Invariant Multi-Objective 
        Evolutionary Algorithm Using Pair-Potential Functions.
 
+REFERENCE
+       L. A. Márquez-Vega, J. G. Falcón-Cardona, E. Covantes Osuna, Towards a 
+       Pareto Front Shape Invariant Multi-Objective Evolutionary Algorithm Using 
+       Pair-Potential Functions, in Batyrshin, I., Gelbukh, A., Sidorov, G. (eds) 
+       Advances in Computational Intelligence, MICAI 2021, vol 13067 of Lecture 
+       Notes in Computer Science, Springer International Publishing, 2021, 
+       pp. 369-382. doi: 10.1007/978-3-030-89817-5_28
+
+       Or you can use the following BibTex entry:
+       
+       @inproceedings{Marquez2021,
+              author={M{\'a}rquez-Vega, Luis A. and Falc{\'o}n-Cardona, Jes{\'u}s Guillermo and {Covantes Osuna}, Edgar},
+              editor={Batyrshin, Ildar and Gelbukh, Alexander and Sidorov, Grigori},
+              title="{Towards a Pareto Front Shape Invariant Multi-Objective Evolutionary Algorithm Using Pair-Potential Functions}",
+              booktitle={Advances in Computational Intelligence, MICAI 2021},
+              year={2021},
+              publisher={Springer International Publishing},
+              pages={369--382},
+              isbn={978-3-030-89817-5},
+              doi={10.1007/978-3-030-89817-5_28},
+              volume={13067},
+              series={Lecture Notes in Computer Science}
+       }
+
